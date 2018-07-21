@@ -57,7 +57,7 @@ Page({
           'order_id': wx.getStorageSync('order_id')
         },
         success: function(res) {
-
+              console.log(res);
         },
         fail: function(res) {}
       })
