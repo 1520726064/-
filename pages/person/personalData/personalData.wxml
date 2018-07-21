@@ -2,16 +2,16 @@
   <view class='personalData_view'>
     <view class='xian touxiang clearfix'>
        <text>头像</text>
-       <image src="../../../images/images/touxiang_gai.png"/>
+       <image src="../../../images/images/touxiang_gai.png" bindtap='chooseImg'/>
     </view>
     <view class='xian clearfix'>
         <text>昵称</text>
        <text>小清新</text>
     </view>
-    <view class='xian clearfix'>
+    <!-- <view class='xian clearfix'>
       <text>手机</text>
        <text>188****1300</text>
-    </view>
+    </view> -->
     <view class='xian clearfix'>
       <text>性别</text>
        <text>女</text>

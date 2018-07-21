@@ -32,7 +32,7 @@ Page({
           imgs: that.data.imgs.concat(res.tempFilePaths)
         })
         var imgs = that.data.imgs;
-        if (imgs.length == 3) {
+        if (imgs.length ==3) {
           that.setData({
             active: 'active',
           })
@@ -57,7 +57,7 @@ Page({
           'order_id': wx.getStorageSync('order_id')
         },
         success: function(res) {
-
+              console.log(res);
         },
         fail: function(res) {}
       })

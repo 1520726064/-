@@ -1,3 +1,5 @@
+
+var url = require('../../../url/url.js');
 Page({
 
   /**
@@ -11,7 +13,16 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    wx.request({
+      url: url.url.getUserInfo,
+      header: {},
+      method: 'GET',
+      dataType: 'json',
+      responseType: 'text',
+      success: function (res) {
+        console.log(res)
+      },
+    })
   },
 
   /**
