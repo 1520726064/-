@@ -1,0 +1,10 @@
+<view class="section">
+      <textarea placeholder='请填写您的问题或建议' auto-focus bindinput='bindinformation' placeholder-class='placeholder'/>
+</view>
+
+
+<view class="footer">
+    <view class="submit">
+      <button  bindtap="tijiao">提交反馈</button>
+    </view>
+  </view>

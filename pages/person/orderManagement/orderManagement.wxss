@@ -1,0 +1,119 @@
+
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.navbar{
+  flex: none;
+  display: flex;
+  font-size: 32rpx;
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+.navbar .item{
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+}
+.navbar .item.active{
+  color: #6aaf3a;
+}
+.navbar .item.active:after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rpx;
+  background: #6aaf3a;
+}
+
+.Dfuohuo,.Dfukuan,.Dpingjia{
+   background-color: white;
+   font-size: 29rpx;
+   margin-bottom: 20rpx;
+}
+.Dfuohuo_top{
+  width: 94%;
+  margin: auto;
+  padding: 20rpx 0;
+   border-bottom: 1px solid #e0e0e0; 
+   margin-bottom: 15rpx;
+}
+.Dfuohuo_top-left{
+  text-align: left;
+}
+.Dfuohuo_top_right{
+  display: inline-block;
+  text-align: right;
+  float: right;
+  color: #999999;
+}
+.Dfuohuo_center{
+  background-color: #fbfbfb;
+  padding:20rpx 3%;
+}
+.Dfuohuo_center_img{
+  float: left;
+  width: 23%;
+  height: 150rpx;
+}
+.Dfuohuo_center_img image{
+  width: 100%;
+  height: 100%;
+  border-radius: 15rpx;
+}
+.Dfuohuo_center_right{
+  float: right;
+  width: 73%;
+  padding-left: 3%;
+  height: auto;
+}
+.Dfuohuo_center_price{
+  padding-top: 10rpx;
+}
+.Dfuohuo_center_price text:nth-child(1){
+  float: left;
+}
+.Dfuohuo_center_price text:nth-child(2){
+  float: right;
+}
+.red{
+  color: #e60303;
+  font-weight: bold;
+}
+.Dfuohuo_center_right_text{
+  height: 100rpx;
+  display: block;
+}
+.Dfuohuo_foot{
+  position: relative;
+  width: 94%;
+  padding: 20rpx 0;
+  margin: auto;
+}
+.Dfuohuo_foot_left{
+  display: inline-block;
+  float: left;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 15rpx;
+}
+.Dfuohuo_foot_right{
+   display: inline-block; 
+  float: right;
+  border: 1px solid #e0e0e0;
+  padding: 15rpx;
+  border-radius: 40rpx;
+}
+
+.Dfukuan .yanse,.Dpingjia .yanse{
+  border-radius: 35rpx;
+  padding: 15rpx 20rpx;
+  margin-left: 20rpx;
+  border: 1px solid #ff0000;
+  color: #ff0000;
+}

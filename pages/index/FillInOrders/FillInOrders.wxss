@@ -1,0 +1,116 @@
+.FillInOrders_1,.FillInOrders_2,.FillInOrders_3,.FillInOrders_4,.dingjin{
+  background-color: white;
+  margin: 25rpx 0;
+  padding: 0 3%;
+  font-size: 33rpx;
+}
+.FillInOrders_1 text{
+  display: inline-block;
+  padding: 20rpx 0;
+}
+.FillInOrders_1 text:nth-child(1){
+  text-align: left;
+  width: 30%;
+  }
+.FillInOrders_1 text:nth-child(2){
+  text-align: left;
+}
+.FillInOrders_2 .name,.FillInOrders_3 .name,.FillInOrders_4 .name{
+   border-bottom: 1px solid #ccc;
+   padding: 20rpx 0;
+}
+.FillInOrders_2 .name:last-child,.FillInOrders_3 .name:last-child,.FillInOrders_4 .name:last-child{
+  border-bottom: none;
+  width: auto;
+}
+.name image:nth-child(1){
+  float: left;
+  width: 40rpx;
+  margin-right: 10rpx;
+  height: 45rpx;
+  vertical-align: sub;
+  }
+.name text:nth-child(2){
+  float: left;
+  width: 25.5%;
+}
+.name input:nth-child(3){
+  float: left;
+  text-align: left;
+  width: 60%;
+}
+.section{
+  width: auto;
+  float: left;
+  text-align: left;
+}
+.section textarea{
+  margin-top: 10rpx;
+  height: 250rpx;
+  padding-left: 20rpx;
+  padding-top: 20rpx;
+  background-color: #f9f8f8;
+}
+.add image{
+  width: 30%!important;
+  height: 200rpx!important;
+}
+.imgshow{
+  width: 150rpx;
+  height: 150rpx;
+}
+.delete-btn image{
+  position: relative;
+  top:0;
+  left:-55rpx; 
+  width: 50rpx!important; 
+  height: 50rpx!important;
+  z-index: 100;
+}
+.active{
+  display: none;
+}
+.green{
+  color: #6aaf3a;
+}
+.dingjin{
+  padding: 20rpx 3%;
+}
+.dingjin text:nth-child(2){
+  text-align: right;
+  float: right;
+}
+.tijiao{
+  width: 94%;
+  margin:20rpx auto;
+}
+.tijiao button{
+  font-size: 33rpx;
+  background-color: #6aaf3a;
+  color: white;
+  border-radius: 50rpx;
+}
+ .address{
+  float: left;
+  text-align: left;
+  width: 67%;
+  display: flex;
+  align-items: center;
+}
+.address view{
+  display: inline-block;
+   width: 94%; 
+}
+ .address .image{
+  height: 40rpx!important;
+  width: 40rpx!important;
+   display: inline-block;
+    text-align: right;
+    float: right;
+    vertical-align: middle;
+} 
+
+.FillInOrders_3 picker image{
+     float: right;
+      text-align: right;
+}

@@ -1,0 +1,18 @@
+<view class='list clearfix'>
+   <view class='list_img'>
+      <image src='../../../images/images/dingdan_1.png'></image>
+   </view>
+   <view class='list_rihgt'>
+      <view class='list_rihgt_text'>鑫众美智能指纹锁门感应卡门锁指 纹密码锁</view>
+      <view class='list_rihgt_jia'><text class='red'>￥499</text><text class='xiao'>销量：500</text></view>
+   </view>
+</view>
+<view class='list clearfix'>
+   <view class='list_img'>
+      <image src='../../../images/images/dingdan_1.png'></image>
+   </view>
+   <view class='list_rihgt'>
+       <view class='list_rihgt_text'>鑫众美智能指纹锁门感应卡门锁指 纹密码锁</view>
+      <view class='list_rihgt_jia'><text class='red'>￥499</text><text class='xiao'>销量：500</text></view>
+   </view>
+</view>

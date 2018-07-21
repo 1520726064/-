@@ -1,0 +1,36 @@
+<view class='maintenanceRecord'>
+   <view class='maintenanceRecord_1 clearfix'>
+    <navigator url="/pages/person/detailsMaintenance/detailsMaintenance">
+      <view class='maintenanceRecord-top clearfix'>
+        <text>灯具</text>
+        <text class='maintenanceRecord_color_qu'>状态：进行中</text>
+      </view>
+      <view class='maintenanceRecord-bottom'>
+        <text>灯泡或灯管不亮</text>
+        <text class='maintenanceRecord_color'>保修时间：2018-06-05</text>
+      </view>
+    </navigator>
+   </view>
+   <view class='maintenanceRecord_1 clearfix'>
+      <navigator url="/pages/person/detailsMaintenance/detailsMaintenance">
+        <view class='maintenanceRecord-top clearfix'>
+            <text>灯具</text>
+            <text class='maintenanceRecord_color'>状态：已取消</text>
+        </view>
+        <view class='maintenanceRecord-bottom'>
+            <text>灯泡或灯管不亮</text>
+            <text class='maintenanceRecord_color'>保修时间：2018-06-05</text>
+        </view>
+      </navigator>  
+   </view>
+   <view class='maintenanceRecord_1 clearfix'>
+     <view class='maintenanceRecord-top clearfix'>
+        <text>灯具</text>
+        <text>状态：已完成</text>
+     </view>
+     <view class='maintenanceRecord-bottom'>
+        <text>灯泡或灯管不亮</text>
+        <text class='maintenanceRecord_color'>保修时间：2018-06-05</text>
+     </view>
+   </view>
+</view>

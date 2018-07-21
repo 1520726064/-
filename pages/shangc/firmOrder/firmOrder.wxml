@@ -1,0 +1,61 @@
+<view class='ConfirmationOrder_1'>
+  <view class='ConfirmationOrder_1_t clearfix'>
+    <view class='ConfirmationOrder_1_left'>
+      <image src='../../../images/images/person_dizhi.png'></image>
+      <text>收货人:李华</text>
+    </view>
+    <view class='ConfirmationOrder_1_right'>
+      <image src='../../../images/images/tel_kefu.png'></image>
+      <text>18856161300</text>
+    </view>
+  </view>
+  <view class='ConfirmationOrder_1_foot clearfix'>
+    <image src='../../../images/images/biao.png'></image>
+    <text>收货地址：安徽省合肥市蜀山区高薪技术产业阳光花园1栋4单元301</text>
+    <image src='../../../images/images/jiantou.png'></image>
+  </view>
+</view>
+
+
+<view class='evaluate_top_view'>
+  <view class='evaluate_top'>
+    <view class='evaluate_top_all'>
+      <image src='../../../images/images/pingjia_tu.png'></image>
+      <view class='evaluate_top_right'>
+        <text>鑫众美智能指纹锁门感应卡门 锁指纹密码锁</text>
+        <view class='evaluate_top_foot'>
+          <text class='red'>￥499</text>
+          <text class='shu'>X1</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='ConfirmationOrder_1_top'>
+  <view class='quan'>优惠券</view>
+  <view class='quan'>
+    <text>5元优惠券</text>
+     <checkbox-group bindchange="checkboxChange" data-index="{{index}}" data-checks="{{item.checks}}">
+      <checkbox data-index="{{index}}" id="3" value="{{item.name}}" checked="{{item.checks}}" />
+    </checkbox-group>
+  </view>
+  <view class='quan'>
+    <text>5元优惠券</text>
+    <checkbox-group bindchange="checkboxChange" data-index="{{index}}" data-checks="{{item.checks}}">
+      <checkbox data-index="{{index}}" id="3" value="{{item.name}}" checked="{{item.checks}}" />
+    </checkbox-group>
+  </view>
+</view>
+
+<view class='ConfirmationOrder_3'>
+  <textarea placeholder='请输入备注信息'></textarea>
+</view>
+
+ <view class='ConfirmationOrder_foot'>
+  <view>
+    合计：
+    <text class='red_2'>￥499</text> 
+  </view>
+  <text class='pay'>去支付</text>
+</view> 

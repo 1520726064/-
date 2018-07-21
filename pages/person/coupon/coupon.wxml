@@ -1,0 +1,71 @@
+<view class='topTabSwiper'>
+    <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}'  data-current = "0" bindtap='checkCurrent'>待领取</view>
+    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}'  data-current = "1" bindtap='checkCurrent'>未使用</view>
+    <view class='tab  {{currentData == 2 ? "tabBorer" : ""}}'  data-current = "2" bindtap='checkCurrent'>已使用</view>
+    <view class='tab  {{currentData == 3 ? "tabBorer" : ""}}'  data-current = "3" bindtap='checkCurrent'>已过期</view>
+</view>
+<swiper current="{{currentData}}" class='swiper' style="height:600px;" duration="300" bindchange="bindchange">
+  <swiper-item>
+     <view class='swiper_con'>
+        <view class='yhq'>
+              <image src='../../../images/images/quan_bg1.png'></image>
+              <view class='yhq-left'>
+                <view class='jiage'>70</view>元
+              </view>
+              <view class='yhq-right'>
+                <view class='yr-left'>
+                  <view class='yr-1'>满￥100使用</view>
+                  <view class='yr-2'>仅限空调维修</view>
+                  <view class='yr-3'>2018.06.24~2018.07.30</view>
+                </view>
+                <view class='yr-button' bindtap='draw'>立即领取</view>
+              </view>
+        </view>
+        <view class='yhq'>
+              <image src='../../../images/images/quan_bg1.png'></image>
+              <view class='yhq-left'>
+                <view class='jiage'>70</view>元
+              </view>
+              <view class='yhq-right'>
+                <view class='yr-left'>
+                  <view class='yr-1'>满￥100使用</view>
+                  <view class='yr-2'>仅限空调维修</view>
+                  <view class='yr-3'>2018.06.24~2018.07.30</view>
+                </view>
+                <view class='yr-button-1' bindtap='draw'>已领取</view>
+              </view>
+        </view>
+        <view class='yhq'>
+              <image src='../../../images/images/unquan_bg.png'></image>
+              <view class='yhq-left'>
+                <view class='jiage'>70</view>元
+              </view>
+              <view class='yhq-right'>
+                <view class='yr-left'>
+                  <view class='yr-1 yr-1-1'>满￥100使用</view>
+                  <view class='yr-2 yr-1-1'>仅限空调维修</view>
+                  <view class='yr-3 yr-1-1'>2018.06.24~2018.07.30</view>
+                </view>
+                <view class='yr-button-2' bindtap='draw'>已使用</view>
+              </view>
+        </view>
+        <view class='yhq'>
+              <image src='../../../images/images/unquan_bg.png'></image>
+              <view class='yhq-left'>
+                <view class='jiage'>70</view>元
+              </view>
+              <view class='yhq-right'>
+                <view class='yr-left'>
+                  <view class='yr-1 yr-1-1'>满￥100使用</view>
+                  <view class='yr-2 yr-1-1'>仅限空调维修</view>
+                  <view class='yr-3 yr-1-1'>2018.06.24~2018.07.30</view>
+                </view>
+                <view class='yr-button-2' bindtap='draw'>已过期</view>
+              </view>
+        </view>
+     </view>
+  </swiper-item> 
+  <swiper-item><view class='swiper_con'>welcome come to 热点</view></swiper-item>
+  <swiper-item><view class='swiper_con'>welcome come to 关注</view></swiper-item>  
+  <swiper-item><view class='swiper_con'>welcome come to 关注</view></swiper-item>  
+</swiper>

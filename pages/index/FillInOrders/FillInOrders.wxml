@@ -1,0 +1,87 @@
+<view class='FillInOrders_1'>
+  <text>问题描述</text>
+  <text>{{name}}-{{index_name}}</text>
+</view>
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class='FillInOrders_2'>
+    <view class='name clearfix'>
+      <image src='../../../images/images/person_dizhi.png'></image>
+      <text>联系人</text>
+      <input name="weixiu_name" placeholder='{{weixiu_name}}' data-weixiu_name='{{weixiu_name}}' bindblur='setname' placeholder-class='placeholder'>
+      </input>
+    </view>
+    <view class='name clearfix'>
+      <image src='../../../images/images/tel.png'></image>
+      <text>电话</text>
+      <input name="weixiu_tel" placeholder='{{weixiu_tel}}' data-weixiu_tel='{{weixiu_tel}}' bindinput='bindnumber' placeholder-class='placeholder'></input>
+    </view>
+
+
+    <view class='name clearfix dizhi'>
+      <image src='../../../images/images/person_dizhi.png'></image>
+      <text>地址</text>
+      <view class='address' bindtap="map">
+        <view name="weixiu_di">{{di_address}}{{di_name}}</view>
+        <image class='image' src='../../../images/images/more.png'></image>
+      </view>
+    </view>
+
+
+
+
+    <view class='name clearfix'>
+      <image src='../../../images/images/biao.png'></image>
+      <text>街道门牌</text>
+      <input name="door" placeholder='{{door}}' data-door='{{door}}' bindchange='addrePickerBindchange' placeholder-class='placeholder'></input>
+    </view>
+  </view>
+
+  <view class='FillInOrders_3'>
+    <view class='name clearfix'>
+      <image src='../../../images/images/time_1.png'></image>
+      <text>预约时间</text>
+      <picker mode="multiSelector" value="{{dateTime1}}" bindchange="changeDateTime1" bindcolumnchange="changeDateTimeColumn1" range="{{dateTimeArray1}}" data-time=' {{dateTimeArray1[0][dateTime1[0]]}}-{{dateTimeArray1[1][dateTime1[1]]}}-{{dateTimeArray1[2][dateTime1[2]]}} {{dateTimeArray1[3][dateTime1[3]]}}:{{dateTimeArray1[4][dateTime1[4]]}}'>
+    <view class="tui-picker-detail">
+      {{dateTimeArray1[0][dateTime1[0]]}}-{{dateTimeArray1[1][dateTime1[1]]}}-{{dateTimeArray1[2][dateTime1[2]]}} {{dateTimeArray1[3][dateTime1[3]]}}:{{dateTimeArray1[4][dateTime1[4]]}}
+    </view>
+  </picker>
+    </view>
+  </view>
+
+  <view class='FillInOrders_4'>
+    <view class='name adress clearfix'>
+      <image src='../../../images/images/beizhu.png'></image>
+      <text>备注说明</text>
+      <view class="section">
+        <textarea placeholder='请填写备注，有助于我们更好的为您服务' adjust-position="true" name='beizhu' placeholder-class='placeholder' />
+      </view>
+    </view>
+
+    <view class='name adress clearfix'>
+      <text>请上传相关图片</text>
+      <view class='add clearfix'>
+        <view class='position' wx:for='{{imgs}}'>
+          <image class='imgshow' src='{{item}}'></image>
+          <view class="delete-btn" data-index="{{index}}" catchtap="deleteImg">
+            <image src='{{del}}'></image>
+          </view>
+        </view>
+        <image class='{{active}}' catchtap='chooseImage' src='{{src}}'></image>
+      </view>
+    </view>
+  </view>
+
+  <view class='dingjin'>
+    <text class='green'>需提交订金</text>
+    <text>{{price}}元</text>
+  </view>
+
+  <view class='tijiao'>
+    <button formType="submit">确认提交</button>
+  </view>
+</form>
+
+
+<!-- <loading hidden="{{submitHidden}}">
+  正在提交...
+</loading> -->

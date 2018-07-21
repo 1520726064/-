@@ -1,0 +1,67 @@
+@import "../firmOrder/firmOrder.wxss";
+
+page{
+  margin-bottom: 0!important;
+}
+.firmOrder_ding{
+  font-size: 33rpx;
+  margin-top:20rpx;
+  background-color: white;
+  padding:0 3%;
+  color: #999999;
+  border-bottom: 1px solid #ccc;
+}
+.firmOrder_list{
+  padding: 25rpx 0;
+  border-bottom: 1px solid #ccc;
+}
+ .firmOrder_li
+ st:last-child{
+  border-bottom: none;
+} 
+.firmOrder_list_bian{
+  float: left;
+}
+.firmOrder_list_right{
+  float: right;
+}
+.tel_ke button{
+  font-size: 38rpx;
+  background-color: #6aaf3a;
+  border-radius: 60rpx;
+  color: white;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-top: 30rpx;
+}
+.tel_ke button image{
+   width: 50rpx;
+   vertical-align: sub;
+   height: 50rpx;
+   margin-right: 10rpx;
+}
+.tel_ke {
+  padding-bottom: 20rpx;
+}
+.fukuan_bottom{
+  background-color: white;
+  text-align: right;
+  padding: 30rpx 3%;
+}
+.fukuan_bottom text{
+  display: inline-block;
+}
+.cancel,.fukuan{
+  
+  border-radius: 50rpx;
+  padding: 20rpx;
+}
+.cancel{
+  color: #bfbfbf;
+  margin-right:20rpx;
+  border: 1px solid #bfbfbf; 
+}
+.fukuan{
+  color: #ff0000;
+  border: 1px solid #ff0000;
+}

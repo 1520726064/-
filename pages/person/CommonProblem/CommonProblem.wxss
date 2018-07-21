@@ -1,0 +1,35 @@
+ .container{
+   padding: 0;
+   width: 90%;
+   margin: auto;
+ }
+ .item-li{
+width: 100%;
+overflow: hidden;
+background: #fff;
+margin-top: 20rpx;
+} 
+ .item-li .item-title{
+   text-align: left;
+width: 100%;
+height: 30rpx;
+line-height: 25rpx;
+padding: 30rpx 0;
+ padding-left: 38rpx; 
+} 
+ .item-li .item-content {
+padding: 35rpx 50rpx;
+border-top: 1rpx solid #f0f0f0;
+} 
+ .item-li .item-content text{
+color: #838383;
+font-size: 32rpx;
+} 
+ .item-li .item-title text{
+color: #000;
+line-height: 20rpx;
+font-size: 34rpx; 
+ }  
+.red{
+   color: #bd3b48!important;
+ }

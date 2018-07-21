@@ -1,0 +1,126 @@
+.detailsMaintenance_top{
+  background-color: white;
+}
+.detailsMaintenance_1 .ending{
+  width:22%!important;
+  color: white;
+  text-align: center;
+  padding: 5rpx 0;
+  display: inline-block;
+  background-color: #999999;
+  border-radius: 30rpx;
+}
+.detailsMaintenance_1,.detailsMaintenance_2,.details_1{
+  width: 92%;
+  margin: auto;
+}
+.detailsMaintenance_1,.details_1{
+  border-bottom: 1px solid #e0e0e0;
+}
+.detailsMaintenance_1,.detailsMaintenance_2,.details_1{
+  font-size: 33rpx;
+  padding: 20rpx 0;
+}
+.detailsMaintenance_1 text:nth-child(1){
+  float: left;
+}
+.detailsMaintenance_1 text:nth-child(1),.detailsMaintenance_2 text:nth-child(1){
+  display: inline-block;
+  width: 30%;
+}
+.detailsMaintenance_1 text:nth-child(2),.detailsMaintenance_2 text:nth-child(2){
+  display: inline-block;
+
+  width: 70%;
+}
+.detailsMaintenance_2 text{
+   font-size: 31rpx;
+   display: inline-block;
+   margin: 25rpx 0;   
+}
+.detailsMaintenance_2 textarea{
+  width: 92%;
+  margin: auto;
+  height: 200rpx;
+  background-color: #f9f8f8;
+  padding: 20rpx;
+  font-size: 31rpx;
+  margin-top: 10rpx;
+}
+.detailsMaintenance_2 view{
+  width: 90%;
+  margin: auto;
+}
+.detailsMaintenance_2 image{
+  width: 190rpx;
+  border-radius: 10rpx;
+  margin-left:25rpx;
+  height: 190rpx;
+  margin-top:50rpx; 
+  margin-bottom: 30rpx;
+}
+.detailsMaintenance_2 image:nth-child(1){
+  margin-left: 0rpx;
+}
+
+.details_1 text:nth-child(1){
+  display: inline-block;
+  width: 30%;
+  text-align: left;
+}
+.details_1 text:nth-child(2){
+  display: inline-block;
+  float: right;
+  text-align: right;
+  width: 70%;
+}
+.detailsMaintenance-bottom_1,.detailsMaintenance-bottom_2,detailsMaintenance-bottom_3{
+  background-color: white;
+  margin-top: 20rpx;
+  padding-bottom:30rpx;
+}
+.red{
+  color: #e30404!important;
+}
+.details_1 text:nth-child(2){
+  color: #9b9b9b;
+}
+.detailsMaintenance-bottom_2{
+  text-align: right;
+}
+.detailsMaintenance-bottom_2 .kefu{
+  width:30%;
+  display: inline-block;
+  border-radius: 30rpx;
+  border: 1rpx solid #ccc;
+  text-align: center;
+  font-size: 33rpx;
+  padding: 9rpx 0;
+}
+.detailsMaintenance-bottom_2 .footer{
+  width: 90%;
+  margin: auto;
+  margin-top: 15rpx;
+}
+.detailsMaintenance-bottom_2 .kefu image{
+  width:35rpx;
+  height:35rpx;
+  vertical-align: middle;
+}
+.detailsMaintenance-bottom_2 .cancal{
+  width: 25%;
+  display: inline-block;
+  padding: 9rpx 0;
+  background-color: #d3d3d3;
+  color: white;
+  border-radius: 30rpx;
+  font-size: 33rpx;
+  margin-left: 15rpx;
+  text-align: center;
+}
+.detailsMaintenance-bottom_1{
+  display: none;
+}
+.detailsMaintenance-bottom_3{
+  display: none;
+}

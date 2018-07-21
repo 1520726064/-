@@ -1,0 +1,87 @@
+<view class='detailsMaintenance_top'>
+  <view class='detailsMaintenance_status detailsMaintenance_1'>
+     <text class='green'>状态</text>
+     <text class='ending'>已完成</text>
+  </view>
+  <view class='detailsMaintenance_1'>
+     <text>问题描述</text>
+     <text>灯具-灯泡或灯管不亮</text>
+  </view>
+  <view class='detailsMaintenance_1'>
+     <text>联系人</text>
+     <text>李华</text>
+  </view>
+  <view class='detailsMaintenance_1'>
+     <text>电话</text>
+     <text>18856161300</text>
+  </view>
+  <view class='detailsMaintenance_1'>
+     <text>地址</text>
+     <text>安徽省合肥市蜀山区高新技术产业阳光花园1栋</text>
+  </view>
+  <view class='detailsMaintenance_1'>
+     <text>预约时间</text>
+     <text>2018-05-16   下午</text>
+  </view>
+  <view class='detailsMaintenance_2'>
+     <text>备注说明</text>
+     <textarea disabled="disabled" readonly="readonly">请尽快上门维修，谢谢！</textarea>
+     <view>
+        <image src="../../../images/images/weixiu_tu.png"></image>
+        <image src="../../../images/images/weixiu_tu.png"></image>
+        <image src="../../../images/images/weixiu_tu.png"></image>
+     </view>
+  </view>
+</view>
+
+<view class='detailsMaintenance-bottom_1'>
+   <view class='details_1'>
+     <text>已提交定金</text>
+     <text class='red'>￥20元</text>
+  </view>
+  <view class='details_1'>
+     <text>使用优惠券</text>
+     <text>10元优惠券</text>
+  </view>
+  <view class='details_1'>
+     <text>下单时间</text>
+     <text>2018-06-15 19:26:02</text>
+  </view>
+  <view class='details_1'>
+     <text>订单编号</text>
+     <text>8456242564524242</text>
+  </view>
+</view>
+
+<view class='detailsMaintenance-bottom_2'>
+   <view class='details_1'>
+     <text>已提交定金</text>
+     <text class='red'>￥20元</text>
+  </view>
+  <view class="footer">
+      <view class='kefu'><image src='../../../images/images/tel_kefu.png'></image><text>联系客服</text></view>
+      <view class='cancal'>取消订单</view>
+  </view>
+</view>
+
+<view class='detailsMaintenance-bottom_3'>
+   <view class='details_1'>
+     <text>已提交定金</text>
+     <text>￥20元</text>
+  </view>
+  <view class='details_2'>
+     <text>使用优惠券</text>
+     <text>10元优惠券</text>
+  </view>
+  <view class='details_3'>
+     <text>下单时间</text>
+     <text>2018—06—15 19:26:02</text>
+  </view>
+  <view class='details_3'>
+     <text>订单编号</text>
+     <text>8456242564524242</text>
+  </view>
+  <view class="footer">
+      
+  </view>
+</view>

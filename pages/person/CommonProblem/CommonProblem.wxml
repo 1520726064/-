@@ -1,0 +1,14 @@
+<view class='container'>
+    <view class='container-wrap'>
+       <view class="item-li" wx:for="{{content}}">
+          <view class="item-title" data-changeid="{{item.id}}" bindtap="showHide">
+             <text>{{item.title}}</text>
+             <image></image>
+          </view>
+          <view class="item-content" wx:if="{{item.shows}}">
+             <text class='red'>答：</text>
+             <text>{{item.contents}}</text>
+          </view>
+       </view>
+    </view>
+</view>

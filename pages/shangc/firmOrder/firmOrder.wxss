@@ -1,0 +1,161 @@
+.evaluate_top_view{
+  background-color: white;
+  margin: 25rpx 0;
+}
+.evaluate_top{
+  background-color: #fbfbfb;
+  width: 100%;
+}
+.evaluate_top_all{
+  padding: 15rpx 0;
+  width: 94%;
+  margin: auto;
+  display:flex;
+  background-color: #fbfbfb;
+  align-items: center;
+}
+.evaluate_top_all image{
+  display:inline-block;
+  width: 180rpx;
+  height: 170rpx;
+  border-radius: 20rpx;
+}
+.evaluate_top_right{
+  width: 70%;
+  margin-left: 4%;
+  font-size: 33rpx;
+  display: inline-block;
+}
+
+.ConfirmationOrder_1{
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: white;
+  font-size: 33rpx;
+  padding-top: 30rpx;
+}
+.ConfirmationOrder_1_top{
+  height: auto;
+  padding: 15rpx 0;
+}
+.ConfirmationOrder_1 image{
+  width: 35rpx;
+  height: 40rpx;
+  vertical-align: sub;
+  margin-right: 10rpx;
+}
+.ConfirmationOrder_1_left{
+  width: 50%;
+  float: left;
+}
+.ConfirmationOrder_1_right{
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+.ConfirmationOrder_1_foot{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20rpx;
+}
+.ConfirmationOrder_1_foot image:nth-child(1){
+  display: inline-block;
+  float: left;
+}
+.ConfirmationOrder_1_foot image:nth-child(3){
+  display: inline-block;
+  float: right;
+  margin-right: 0;
+}
+.ConfirmationOrder_1_foot text{
+  float: left;
+  display: inline-block;
+  width: 93%;
+}
+.red{
+  float: left;
+  color: #ff0000;
+  font-size: 36rpx;
+}
+.red_1{
+  color: #ff0000;
+  font-size: 36rpx;
+}
+.shu{
+  font-size: 33rpx;
+  float: right;
+  color: #333333;
+}
+.ConfirmationOrder_3{
+  background-color: white;
+  padding:0 3%;
+}
+.ConfirmationOrder_3 textarea{
+  padding-left: 10rpx; 
+  height: 230rpx;
+}
+.quan{
+  line-height: 70rpx;
+  padding: 20rpx 0;
+  height: 70rpx;
+  border-bottom: 1px solid #ccc;
+}
+.quan:last-child{
+  border-bottom: none;
+}
+.quan text{
+   display: inline-block;
+}
+.quan checkbox-group{
+   float: right;
+   display: inline-block;
+}
+.ConfirmationOrder_1_top{
+   padding: 0 3%; 
+  background-color: white;
+  margin-bottom: 20rpx;
+}
+.ConfirmationOrder_1_t{
+  background-color: white;
+  margin-bottom: 20rpx;
+}
+.ConfirmationOrder_3{
+  background-color: white;
+  padding: 3%;
+}
+.ConfirmationOrder_3 textarea{
+  font-size: 33rpx;
+  width: 96%;
+  padding-top:20rpx;
+  padding-left: 20rpx; 
+  background-color: #f4f4f4;
+}
+
+page{
+  margin-bottom: 120rpx;
+}
+.ConfirmationOrder_foot{
+  border-top: 1px solid #ccc;
+  position: fixed;
+  line-height: 120rpx;
+  height: 120rpx;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  font-size: 45rpx;
+}
+.red_2{
+  color: #ff0000;
+  font-size: 45rpx;
+}
+.ConfirmationOrder_foot view{
+ display: inline-block; 
+}
+.pay{
+  float: right;
+  width: 30%;
+  text-align: center;
+  color: white;
+  background-color: #e60303;
+}

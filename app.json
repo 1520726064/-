@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/welcome/welcome",
+    "pages/shangc/productDetails/productDetails",
+    "pages/shangc/productList/productList",
+    "pages/shangc/ConfirmationOrder/ConfirmationOrder",
+    "pages/shangc/evaluate/evaluate",
+    "pages/index/FillInOrders/FillInOrders",
+    "pages/index/classification/classification",
+    "pages/person/orderManagement/orderManagement",
+    "pages/index/index",
+    "pages/person/CommonProblem/CommonProblem",
+    "pages/person/person",
+    "pages/person/information/information",
+    "pages/person/detailsMaintenance/detailsMaintenance",
+    "pages/person/commonInformation/commonInformation",
+    "pages/person/personalData/personalData",
+    "pages/person/costDescription/costDescription",
+    "pages/person/maintenanceRecord/maintenanceRecord",
+    "pages/person/suggestions/suggestions",
+    "pages/person/adress/adress",
+    "pages/person/coupon/coupon",
+    "pages/logs/logs",
+    "pages/details/details",  
+    "pages/shangc/shangc"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,49 @@
+.information{
+  background-color: white;
+  margin-bottom: 20rpx;
+}
+.information_all{
+  width: 90%;
+  margin: auto;
+}
+.information_1{
+  padding: 20rpx 0 10rpx;
+}
+.information_1 text{
+  font-size: 33rpx;
+   display: inline-block;
+}
+.information_1 text:nth-child(1){
+  text-align: left;
+}
+.information_1 text:nth-child(2){
+  float: right;
+}
+.information_2{
+  padding: 10rpx 0 25rpx;
+  font-size: 33rpx;
+  border-bottom: 1px solid #ccc;
+  color: #676767;
+}
+.information_3{
+  padding:25rpx 0;
+}
+.information_3 image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+  vertical-align: sub;
+}
+.information_3_view{
+  font-size: 33rpx;
+  width: 50%;
+    display: inline-block;  
+}
+.information_3_view:nth-child(2) view{
+  display: inline-block;
+  width: 49%;
+  text-align: right;
+}
+.gray{
+  color: #6e6e6e;
+}

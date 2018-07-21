@@ -1,0 +1,217 @@
+<!--index.wxml-->
+<import src="../../template/template.wxml" />
+<template is="tabBar" data="{{tabBar:bindData.tabBar}}" />
+<swiper class='index-lun' indicator-dots="{  {indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{Banners}}">
+    <swiper-item>
+      <image src="{{item.banner}}" class="slide-image" width="355" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='nav-box clearfix'>
+  <view wx:for='{{RepairCategory}}' catchtap='detail' data-id='{{item.id}}'>
+    <view class="nav_list">
+      <view class='img'>
+        <image src='{{item.image}}' />
+      </view>
+      <view class="list">{{item.name}}</view>
+    </view>
+  </view>
+</view>
+
+<view class='rmwx'>
+  <view class='rmwx-top'>
+    <image src='../../images/images/line.png' />
+    <text>热门维修</text>
+  </view>
+  <view class='rmwx-text clearfix'>
+    <view wx:for='{{SecondCategory}}'>
+      <text bindtap='tiaozhuan' data-index='{{index}}' data-id="{{item['pid']}}">{{item['name']}}</text>
+    </view>
+  </view>
+</view>
+
+<view class='tjsp'>
+  <view class='tjsp-top'>
+    <image src='../../images/images/line.png' />
+    <text>推荐商品</text>
+    <navigator>
+      <text>更多</text>>
+    </navigator>
+  </view>
+  <view class='tjsp-bottom'>
+    <view class='tjsp-bottom-all clearfix'>
+      <navigator class='tjsp-li' wx:for="{{TuiGoods}}" url="../shangc/productList/productList">
+        <view>
+          <view>
+            <image src='{{item.cover}}'></image>
+          </view>
+          <view class='tjsp_price'>
+            <text>{{item.good_name}}</text>
+            <view class='red'>
+              ￥
+              <text>{{item.price}}</text>
+            </view>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>
+
+<!-- <view class="modal_screen" bindtap='powerDrawer'  data-statu="close" wx:if="{{showModalStatus}}"></view>   
+  <view animation="{{animationData}}" class="modal_box" wx:if="{{showModalStatus}}">   
+    <view class="modal_content">  
+      <view class="modal_quanxian">
+        <image src='{{tan_img}}'></image>
+      </view>
+      <view class='quan_div'>
+        <view class='quan'>
+          <view class='yhq'>
+              <image src='../../images/images/quan_bg.png'></image>
+              <view class='yhq-left'>
+                <view class='jiage'>70</view>元
+              </view>
+              <view class='yhq-right'>
+                <view class='yr-left'>
+                  <view class='yr-1'>满￥100使用</view>
+                  <view class='yr-2'>仅限空调维修</view>
+                  <view class='yr-3'>2018.06.24~2018.07.30</view>
+                </view>
+                <view class='yr-button' bindtap='draw'>立即领取</view>
+              </view>
+          </view>
+          <view class='yhq'>
+              <image src='../../images/images/quan_bg.png'></image>
+              <view class='yhq-left'>
+                <view class='jiage'>70</view>元
+              </view>
+              <view class='yhq-right'>
+                <view class='yr-left'>
+                  <view class='yr-1'>满￥100使用</view>
+                  <view class='yr-2'>仅限空调维修</view>
+                  <view class='yr-3'>2018.06.24~2018.07.30</view>
+                </view>
+                <view class='yr-button' bindtap='draw'>立即领取</view>
+              </view>
+          </view>
+          <view class='yhq'>
+              <image src='../../images/images/quan_bg.png'></image>
+              <view class='yhq-left'>
+                <view class='jiage'>70</view>元
+              </view>
+              <view class='yhq-right'>
+                <view class='yr-left'>
+                  <view class='yr-1'>满￥100使用</view>
+                  <view class='yr-2'>仅限空调维修</view>
+                  <view class='yr-3'>2018.06.24~2018.07.30</view>
+                </view>
+                <view class='yr-button' bindtap='draw'>立即领取</view>
+              </view>
+          </view>
+          <view class='yhq'>
+              <image src='../../images/images/quan_bg.png'></image>
+              <view class='yhq-left'>
+                <view class='jiage'>70</view>元
+              </view>
+              <view class='yhq-right'>
+                <view class='yr-left'>
+                  <view class='yr-1'>满￥100使用</view>
+                  <view class='yr-2'>仅限空调维修</view>
+                  <view class='yr-3'>2018.06.24~2018.07.30</view>
+                </view>
+                <view class='yr-button' bindtap='draw'>立即领取</view>
+              </view>
+          </view>
+          <view class='yhq'>
+              <image src='../../images/images/quan_bg.png'></image>
+              <view class='yhq-left'>
+                <view class='jiage'>70</view>元
+              </view>
+              <view class='yhq-right'>
+                <view class='yr-left'>
+                  <view class='yr-1'>满￥100使用</view>
+                  <view class='yr-2'>仅限空调维修</view>
+                  <view class='yr-3'>2018.06.24~2018.07.30</view>
+                </view>
+                <view class='yr-button' bindtap='draw'>立即领取</view>
+              </view>
+          </view>
+          <view class='yhq'>
+              <image src='../../images/images/quan_bg.png'></image>
+              <view class='yhq-left'>
+                <view class='jiage'>70</view>元
+              </view>
+              <view class='yhq-right'>
+                <view class='yr-left'>
+                  <view class='yr-1'>满￥100使用</view>
+                  <view class='yr-2'>仅限空调维修</view>
+                  <view class='yr-3'>2018.06.24~2018.07.30</view>
+                </view>
+                <view class='yr-button' bindtap='draw'>立即领取</view>
+              </view>
+          </view>
+          <view class='yhq'>
+              <image src='../../images/images/quan_bg.png'></image>
+              <view class='yhq-left'>
+                <view class='jiage'>70</view>元
+              </view>
+              <view class='yhq-right'>
+                <view class='yr-left'>
+                  <view class='yr-1'>满￥100使用</view>
+                  <view class='yr-2'>仅限空调维修</view>
+                  <view class='yr-3'>2018.06.24~2018.07.30</view>
+                </view>
+                <view class='yr-button' bindtap='draw'>立即领取</view>
+              </view>
+          </view>
+          <view class='yhq'>
+              <image src='../../images/images/quan_bg.png'></image>
+              <view class='yhq-left'>
+                <view class='jiage'>70</view>元
+              </view>
+              <view class='yhq-right'>
+                <view class='yr-left'>
+                  <view class='yr-1'>满￥100使用</view>
+                  <view class='yr-2'>仅限空调维修</view>
+                  <view class='yr-3'>2018.06.24~2018.07.30</view>
+                </view>
+                <view class='yr-button' bindtap='draw'>立即领取</view>
+              </view>
+          </view>
+          <view class='yhq'>
+              <image src='../../images/images/quan_bg.png'></image>
+              <view class='yhq-left'>
+                <view class='jiage'>70</view>元
+              </view>
+              <view class='yhq-right'>
+                <view class='yr-left'>
+                  <view class='yr-1'>满￥100使用</view>
+                  <view class='yr-2'>仅限空调维修</view>
+                  <view class='yr-3'>2018.06.24~2018.07.30</view>
+                </view>
+                <view class='yr-button' bindtap='draw'>立即领取</view>
+              </view>
+          </view>
+          <view class='yhq'>
+              <image src='../../images/images/quan_bg.png'></image>
+              <view class='yhq-left'>
+                <view class='jiage'>70</view>元
+              </view>
+              <view class='yhq-right'>
+                <view class='yr-left'>
+                  <view class='yr-1'>满￥100使用</view>
+                  <view class='yr-2'>仅限空调维修</view>
+                  <view class='yr-3'>2018.06.24~2018.07.30</view>
+                </view>
+                <view class='yr-button' bindtap='draw'>立即领取</view>
+              </view>
+          </view>
+        </view>
+      </view>
+      <view class='close'>
+        <image src="../../images/images/close.png"  bindtap="powerDrawer" data-statu="close"></image>
+      </view>
+    </view>  
+  </view> -->

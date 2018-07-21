@@ -1,0 +1,35 @@
+<view class='evaluate'>
+  <view class='evaluate_top'>
+    <view class='evaluate_top_all'>
+      <image src='../../../images/images/pingjia_tu.png'></image>
+      <view class='evaluate_top_right'>
+        <text>鑫众美智能指纹锁门感应卡门 锁指纹密码锁</text>
+        <view class='evaluate_top_foot'>
+          <text class='red'>￥499</text>
+          <text class='shu'>X1</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='evaluate_center'>
+    <view class='evaluate_center_top'>
+      <view class="star" style="display:flex;flex-direction:row;">
+        <view class="star-description">评价</view>
+        <view class="star-content" style="display:flex;flex-direction:row;">
+          <view class="starsHas  {{starFlag>=1? '': 'starNo'}}" bindtap="changeOne"></view>
+          <view class="starsHas  {{starFlag>=2? '': 'starNo'}}" bindtap="changeTwo"></view>
+          <view class="starsHas  {{starFlag>=3? '': 'starNo'}}" bindtap="changeThree"></view>
+          <view class="starsHas  {{starFlag>=4? '': 'starNo'}}" bindtap="changeFour"></view>
+          <view class="starsHas  {{starFlag>=5? '': 'starNo'}}" bindtap="changeFive"></view>
+        </view>
+      </view>
+      <view>
+        <textarea placeholder-class='placeholder' placeholder='宝贝满足你的期待吗？说说你的使用心得，分享给想买的他们吧'></textarea>
+      </view>
+    </view>
+    <view class='fabu'>
+      <button>发布</button>
+    </view>
+  </view>
+</view>

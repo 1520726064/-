@@ -1,0 +1,133 @@
+<import src="../../template/template.wxml"/>
+<template is="tabBar" data="{{tabBar:bindData.tabBar}}"/>
+<view class='person_top clearfix'>
+  <navigator url='/pages/person/personalData/personalData'>
+    <view class='person_top_intercalate'>
+      <image src="../../images/images/person_intercalate.png"/>
+    </view>
+  </navigator>
+  <view class='person_top_bottom'>
+     <view class='person_top_img'>
+       <image src="../../images/images/touxiang.png"/>
+     </view>
+     <view class='person_top_view'>
+        <view>{{person_img}}</view>
+        <view>{{person_sex}}</view>
+     </view>
+  </view>
+</view>
+
+<view class='person_cart'>
+   <view class='person_cart-top'>
+     <text>全部订单</text>
+      <navigator url='/pages/person/orderManagement/orderManagement'> 
+        <text>查看更多 ></text>
+       </navigator> 
+   </view>
+   <view class='person_cart-bottom clearfix'>
+     <navigator>
+       <image src='../../images/images/bags.png'></image>
+       <text>待付款</text>
+     </navigator>
+     <navigator>
+       <image src='../../images/images/fahuo.png'></image>
+       <text>待发货</text>
+     </navigator>
+     <navigator>
+       <image src='../../images/images/shouhuo.png'></image>
+       <text>待收货</text>
+     </navigator>
+     <navigator>
+       <image src='../../images/images/ping.png'></image>
+       <text>待评价</text>
+     </navigator>
+   </view>
+</view>
+
+
+<view class="bd">
+    <view class="menu">
+      <view class="menu-item menu-order">
+        <navigator url="/pages/person/maintenanceRecord/maintenanceRecord">
+          <span class='img'>
+            <image src="../../images/images/weixiu.png"></image>
+          </span>
+          <span class='order'>
+           维修记录
+          </span>
+        </navigator>
+      </view>
+      <view class="menu-item menu-card">
+        <navigator url="/pages/person/coupon/coupon">
+          <span class='img'>
+            <image src="../../images/images/quan.png"></image>
+          </span>
+          <span class='order'>优惠券
+          </span>
+        </navigator>
+      </view>
+      <view class="menu-item menu-card">
+        <navigator url='/pages/person/information/information'>
+          <span class='img'>
+            <image src="../../images/images/gern.png"></image>
+          </span>
+          <span class='order'>常用信息
+          </span>
+        </navigator>
+      </view>
+    </view>
+
+    <view class="menu">
+      <view class="menu-item menu-card">
+        <navigator url="/pages/person/costDescription/costDescription">
+          <span class='img'>
+            <image src="../../images/images/feiyong.png"></image>
+          </span>
+          <span class='order'>费用说明</span>
+        </navigator>
+      </view>
+      <view class="menu-item menu-card">
+        <navigator>
+          <span class='img'>
+            <image src="../../images/images/wenti.png"></image>
+          </span>
+          <span class='order'>常见问题</span>
+        </navigator>
+      </view>
+      <view class="menu-item menu-card">
+        <navigator url="/pages/person/suggestions/suggestions">
+          <span class='img'>
+            <image src="../../images/images/xinxi.png"></image>
+          </span>
+          <span class='order'>问题反馈</span>
+        </navigator>
+      </view>
+    </view>
+
+    <view class="menu">
+      <view class="menu-item menu-card">
+        <navigator>
+          <span class='img'>
+            <image src="../../images/images/xiaoxi1.png"></image>
+          </span>
+          <span class='order'>在线客服</span>
+        </navigator>
+      </view>
+      <view class="menu-item menu-card">
+        <navigator>
+          <span class='img'>
+            <image src="../../images/images/xinxi-1.png"></image>
+          </span>
+          <span class='order'>关于我们</span>
+        </navigator>
+      </view>
+      <view class="menu-item menu-card">
+        <navigator>
+          <span class='img'>
+            <image src="../../images/images/qiehuan.png"></image>
+          </span>
+          <span class='order'>切换账号</span>
+        </navigator>
+      </view>
+    </view>
+  </view>

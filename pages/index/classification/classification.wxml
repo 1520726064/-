@@ -1,0 +1,36 @@
+<view class='getCategoryImage' wx:for="{{getCategoryImage}}">
+  <image src='{{item.category_img}}'></image>
+</view>
+<!--主盒子-->
+<view class="container">
+  <!--左侧栏-->
+  <view class="nav_left">
+    <block wx:for="{{navLeftItems}}">
+      <!--当前项的id等于item项的id，那个就是当前状态-->
+      <!--用data-index记录这个数据在数组的下标位置，使用data-id设置每个item的id值，供打开3级页面使用-->
+      <view class="nav_left_items {{curNav == item.id ? 'active' : ''}}" bindtap="switchRightTab" data-index="{{index}}" data-id="{{item.id}}" data-name='{{item.name}}'>
+        {{item.name}}
+      </view>
+    </block>
+  </view>
+  <!--右侧栏-->
+  <view class="nav_right">
+    <!--如果有数据，才遍历项-->
+    <view wx:if="{{navRightItems}}">
+      <view class="nav_right_items" wx:for="{{navRightItems}}">
+        <view catchtap='tiaozhuan' data-name='{{item.name}}' data-id='{{item.id}}'>
+          <!--如果有文字，就用文字；-->
+          <view>
+            <text>{{item.name}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!--如果无数据，则显示数据-->
+    <view class='nav_right_items_all' wx:else>
+      <view class='nav_right_items' wx:for='{{navRightItems}}'>
+        <text>{{item.name}}</text>
+      </view>
+    </view>
+  </view>
+</view>

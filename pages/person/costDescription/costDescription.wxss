@@ -1,0 +1,15 @@
+page{
+  background-color: white;
+}
+.costDescription{
+   margin-top: 45rpx;
+}
+.costDescription_view{
+  text-indent: 2em;
+  width: 92%;
+  margin: auto;
+  color: #989898;
+  font-size:30rpx;
+  text-align: 2em;
+  line-height: 50rpx;
+}

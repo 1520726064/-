@@ -1,0 +1,130 @@
+.tab{
+  float: left; 
+  width: 25%;
+  text-align: center;
+  padding: 30rpx 0; 
+  }
+.topTabSwiper{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  border-top: 1px solid #6aaf3a; 
+  border-bottom: 1px solid #6aaf3a; 
+  zoom: 1;
+  font-size: 30rpx;
+  background-color: #fff;
+  }
+.topTabSwiper:after{
+  content: "";
+   clear: both;
+   display: block;
+   }
+.tabBorer{
+  border-bottom: 1px solid #6aaf3a; 
+  color: #6aaf3a;
+  }
+.swiper{
+  width: 100%;
+  margin-top: 90rpx;
+  }
+.swiper_con{
+  text-align: center; 
+  width: 100%; 
+  padding:70rpx 0;
+  }
+
+  .yhq{
+  width: 85%;
+  margin:0 auto 20rpx auto;
+  height: 160rpx;
+  position: relative;
+}
+.yhq image{
+  height: 100%;
+  width: 100%;
+}
+.yhq-left{
+  width: 30%;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 160rpx;
+}
+.yhq-right{
+  width: 70%;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 32%;
+}
+.yhq-left .jiage{
+  display: inline-block;
+  font-size:68rpx;
+}
+.yr-left{
+  float: left;
+  width: 63%;
+  margin: 22rpx 0;
+  text-align: left;
+}
+.yr-1{
+  font-size: 35rpx;
+  color: #000;
+  margin-bottom: 5rpx;
+}
+.yr-2{
+  font-size: 23rpx;
+  color: #b3b3b3;
+  margin-bottom: 5rpx;
+}
+.yr-1-1{
+  color: #b3b3b3;
+}
+.yr-3{
+  font-size: 20rpx;
+  color: #ababab;
+  margin-bottom: 5rpx;
+}
+.yr-button{
+  font-size: 24rpx;
+  background-color: #6aaf3a;
+  color: white;
+  float: left;
+  width: 27%;
+  height: 50rpx;
+  line-height: 45rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  margin: 13% 0;
+}
+.yr-button-1{
+  font-size: 24rpx;
+  background-color: white;
+  color: #6aaf3a;
+  border: 1px solid #6aaf3a;
+  float: left;
+  width: 27%;
+  height: 50rpx;
+  line-height: 45rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  margin: 13% 0;
+}
+.yr-button-2{
+  font-size: 24rpx;
+  background-color: white;
+  color: #c7c7c7;
+  border: 1px solid #c7c7c7;
+  float: left;
+  width: 27%;
+  height: 50rpx;
+  line-height: 45rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  margin: 13% 0;
+}

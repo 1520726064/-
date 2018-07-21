@@ -1,0 +1,87 @@
+<swiper class='index-lun' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{Banners}}">
+    <swiper-item>
+      <image src="{{item.banner}}" class="slide-image" width="355" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
+<view>
+  <view>鑫众美智能指纹锁门感应卡门锁指 纹密码锁</view>
+  <view>
+    <text>￥499</text>
+    <text>销量：100</text>
+  </view>
+  <view>
+    <view>
+      <image></image>
+      <text>质量保证</text>
+    </view>
+    <view>
+      <image></image>
+      <text>原厂品质</text>
+    </view>
+    <view>
+      <image></image>
+      <text>服务放心</text>
+    </view>
+    <view>
+      <image></image>
+      <text>技术保障</text>
+    </view>
+  </view>
+  <view>
+    <text>购买数量</text>
+    <view class="stepper">
+      <!-- 减号 -->
+      <text class="{{minusStatus}}" bindtap="bindMinus">-</text>
+      <!-- 数值 -->
+      <input type="number" bindchange="bindManual" value="{{num}}" />
+      <!-- 加号 -->
+      <text class="normal" bindtap="bindPlus">+</text>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view>
+    <text>总体满意度评分 5.0</text>
+  </view>
+  <view>
+    <text>用户评价</text>
+    <view>
+      <text>800人</text>
+      <image></image>
+    </view>
+  </view>
+  <view>
+    <view>
+      <view>
+        <image></image>
+        <view>
+          <text>laney</text>
+          <text></text>
+        </view>
+      </view>
+      <view>正品好评！</view>
+    </view>
+    <view>2018-06-26</view>
+  </view>
+</view>
+
+<view>
+  <text>商品详情</text>
+  <view>
+    <image></image>
+    <image></image>
+    <image></image>
+    <image></image>
+  </view>
+</view>
+
+<view>
+  <view>
+    <image></image>
+    <text>客服</text>
+  </view>
+  <view>立即购买</view>
+</view>

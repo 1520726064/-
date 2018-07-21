@@ -1,0 +1,103 @@
+page{
+  background-color: white;
+}
+.evaluate{
+  background-color: white;
+  width: 100%;
+}
+.evaluate_top{
+  margin: 15rpx 0;
+  background-color: #fbfbfb;
+  width: 100%;
+}
+.evaluate_top_all{
+  padding: 15rpx 0;
+  width: 94%;
+  margin: auto;
+  display:flex;
+  align-items: center;
+}
+.evaluate_top_all image{
+  display:inline-block;
+  width: 180rpx;
+  height: 170rpx;
+  border-radius: 20rpx;
+}
+.evaluate_top_right{
+  width: 70%;
+  margin-left: 4%;
+  font-size: 33rpx;
+  display: inline-block;
+}
+.red{
+  float: left;
+  color: #ff0000;
+  font-size: 36rpx;
+}
+.shu{
+  font-size: 33rpx;
+  float: right;
+  color: #333333;
+}
+.evaluate_center{
+  width: 94%;
+  margin: auto;
+  font-size: 33rpx;
+}
+.evaluate_center_top{
+  padding: 20rpx 0;
+  }
+.evaluate_center textarea{
+   background-color: #f6f6f6;
+   width: auto;
+   padding: 30rpx;
+}
+.fabu{
+  width: 94%;
+  margin:50rpx auto; 
+}
+.fabu button{
+  background-color: #6aaf3a;
+  color: white;
+  border-radius: 50rpx;
+}
+
+
+
+.pingfen{
+  margin: 20rpx 0;
+}
+
+
+
+
+
+.star{
+    margin: 30rpx 0;
+}
+.star-description{
+    font-size: 33rpx;
+    color: #333333;
+}
+.star-content {
+     float: left;
+}
+.star .star-content .starNo{
+    z-index: 2;
+    background-image: url("http://xcx01.yiyuncloud.com/static/admin/static/picbox/images/star.png");
+    width: 50rpx;
+    height: 43rpx;
+    background-size: 43rpx 43rpx;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.starsHas{
+    z-index: 1;
+    width:50rpx;
+    height: 43rpx;
+    background-image: url("http://xcx01.yiyuncloud.com/static/admin/static/picbox/images/star_gray.png");
+    background-size: 43rpx 43rpx;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

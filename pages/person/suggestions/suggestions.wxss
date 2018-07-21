@@ -1,0 +1,39 @@
+.section{
+  margin: 40rpx 0;
+}
+.placeholder{
+  display: inline-block;
+  vertical-align:middle;
+  color: #b6b6b6;
+  font-size:30rpx;
+}
+.section textarea{
+  width: 90%;
+  margin: auto;
+  color: #b6b6b6;
+  font-size:32rpx;
+  background-color: white;
+  border-radius: 20rpx;
+  padding-left: 30rpx;
+  padding-top: 30rpx;
+}
+
+
+
+.footer {
+  width: 90%;
+  margin: 40rpx auto 0;
+  height: 96rpx;
+}
+
+.footer .submit {
+  width: 100%;
+}
+.footer .submit button{
+border-radius:50rpx;
+height:96rpx;
+line-height:96rpx;
+font-size:16px;
+background:#6aaf3a;
+color:white;
+}

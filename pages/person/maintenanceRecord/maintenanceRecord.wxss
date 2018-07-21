@@ -1,0 +1,41 @@
+page{
+  background-color: white;
+}
+.maintenanceRecord{
+  background-color: #f6f6f6;
+}
+.maintenanceRecord_1{
+  background-color: white;
+  padding: 0 5%;
+  margin-bottom: 20rpx;
+}
+.maintenanceRecord-top{
+  border-bottom: 1px solid #f6f6f6;  
+  padding: 30rpx 0;
+}
+.maintenanceRecord-top text{
+  font-size: 32rpx;
+}
+.maintenanceRecord-top text:nth-child(1){
+  float: left;
+}
+.maintenanceRecord-top text:nth-child(2){
+  float: right;
+}
+.maintenanceRecord-bottom {
+  margin:30rpx 0;
+}
+.maintenanceRecord-bottom text{
+  display: block;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+}
+.maintenanceRecord_color{
+  color: #b8b8b8;
+}
+.maintenanceRecord-bottom text:nth-child(2){
+  font-size: 26rpx;
+}
+.maintenanceRecord_color_qu{
+  color: #6aaf3a;
+}

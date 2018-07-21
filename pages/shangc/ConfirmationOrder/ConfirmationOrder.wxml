@@ -1,0 +1,65 @@
+<view class='ConfirmationOrder_1'>
+  <view class='ConfirmationOrder_1_t clearfix'>
+    <view class='ConfirmationOrder_1_left'>
+      <image src='../../../images/images/person_dizhi.png'></image>
+      <text>收货人:李华</text>
+    </view>
+    <view class='ConfirmationOrder_1_right'>
+      <image src='../../../images/images/tel_kefu.png'></image>
+      <text>18856161300</text>
+    </view>
+  </view>
+  <view class='ConfirmationOrder_1_foot clearfix'>
+    <image src='../../../images/images/biao.png'></image>
+    <text>收货地址：安徽省合肥市蜀山区高薪技术产业阳光花园1栋4单元301</text>
+  </view>
+</view>
+
+
+<view class='evaluate_top_view'>
+  <view class='evaluate_top'>
+    <view class='evaluate_top_all'>
+      <image src='../../../images/images/pingjia_tu.png'></image>
+      <view class='evaluate_top_right'>
+        <text>鑫众美智能指纹锁门感应卡门 锁指纹密码锁</text>
+        <view class='evaluate_top_foot'>
+          <text class='red'>￥499</text>
+          <text class='shu'>X1</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='ConfirmationOrder_3'>
+  <textarea placeholder='未填写备注信息' disabled="disabled"></textarea>
+</view>
+
+<view class='firmOrder_ding'>
+  <view class='firmOrder_list clearfix'>
+     <text class='firmOrder_list_bian'>订单编号</text>
+     <text class='firmOrder_list_right'>654235645645466464</text>
+  </view>
+  <view class='firmOrder_list clearfix'>
+     <text class='firmOrder_list_bian'>下单时间</text>
+     <text class='firmOrder_list_right'>2018-06-28 12:26</text>
+  </view>
+  <view class='firmOrder_list clearfix'>
+     <text class='firmOrder_list_bian'>优惠券</text>
+     <text class='firmOrder_list_right'>5元优惠券</text>
+  </view>
+  <view class='firmOrder_list clearfix'>
+     <text class='firmOrder_list_bian'>总金额</text>
+     <text class='firmOrder_list_right red  '>￥499</text>
+  </view>
+
+
+  <view class='tel_ke'>
+    <button><image src='../../../images/images/tel_ke.png'></image>联系客服</button>
+  </view>
+</view>
+
+<view class='fukuan_bottom'>
+  <text class='cancel'>取消订单</text>
+  <text class='fukuan'>付款</text>
+</view>

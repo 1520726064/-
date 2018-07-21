@@ -1,0 +1,43 @@
+<!-- 常用信息 -->
+
+<view class='information'>
+  <view class='information_all'>
+      <view class='information_1'>
+        <text>李华</text>
+        <text>18856151300</text>
+      </view>
+      <view class='information_2'>
+        安徽省合肥市蜀山区
+      </view>
+      <view class='information_3'>
+        <view class='information_3_view green'><image src='../../../images/images/check_bg.png'></image>默认</view>
+        <view class='information_3_view'>
+            <view class='gray'><image src='../../../images/images/bianji.png'></image>编辑</view>
+            <view class='gray'><image src='../../../images/images/delete.png'></image>删除</view>
+        </view>
+      </view>
+  </view>
+</view>
+
+<view class='information'>
+  <view class='information_all'>
+      <view class='information_1'>
+        <text>李华</text>
+        <text>18856151300</text>
+      </view>
+      <view class='information_2'>
+        安徽省合肥市蜀山区
+      </view>
+      <view class='information_3'>
+        <view class='information_3_view'><image src='../../../images/images/check.png'></image>设为默认</view>
+        <view class='information_3_view'>
+            <view class='gray'><image src='../../../images/images/bianji.png'></image>编辑</view>
+            <view class='gray'><image src='../../../images/images/delete.png'></image>删除</view>
+        </view>
+      </view>
+  </view>
+</view>
+
+<navigator>
+   
+</navigator>

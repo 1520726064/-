@@ -1,0 +1,38 @@
+.personalData{
+  background-color: white;
+}
+.personalData_view{
+ width: 92%;
+ margin: auto; 
+}
+.touxiang{
+  height: 100rpx;
+  padding: 35rpx 0;
+}
+.touxiang text{
+  line-height: 60rpx;
+}
+.touxiang image{
+  float: right;
+}
+.xian{
+  border-bottom: 1px solid #ebebeb;
+}
+.personalData_view image{
+   width: 100rpx;
+   height: 100rpx;
+   border-radius: 50%;
+}
+.xian text{
+  display: inline-block;
+  padding: 25rpx 0;
+}
+.xian text:nth-child(1){
+  /* float: left; */
+  font-size: 31rpx;
+}
+.xian text:nth-child(2){
+  float: right;
+  font-size: 31rpx;
+  color: #999;
+}

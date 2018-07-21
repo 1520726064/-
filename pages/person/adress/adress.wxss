@@ -1,0 +1,82 @@
+modal{
+  position:absolute;
+  top:0;
+  z-index:99999;
+}
+.information{
+  background: #fff;
+  width:100%;
+}
+
+image{
+  width: 24px;
+  height:24px;
+  vertical-align: middle;
+}
+text{
+  float: left;
+  width: 25%;
+  font-size: 34rpx;
+}
+input{
+  width:70%;
+  float: left;
+  display: inline-block;
+  vertical-align:middle;
+  margin-left:10px;
+  color: #b6b6b6;
+  font-size:32rpx;
+}
+.placeholder{
+  display: inline-block;
+  vertical-align:middle;
+  color: #b6b6b6;
+  font-size:30rpx;
+}
+picker{
+  width:70%;
+  float: left;
+  display: inline-block;
+  vertical-align:middle;
+  margin-left:10px;
+  color: #b6b6b6;
+  font-size:29rpx;
+}
+.name{
+  width: 90%;
+  margin: auto;
+  border-bottom:1px solid #eee;
+  display: flex;
+  align-items: center;
+  padding: 20rpx 0;
+}
+.adress{
+  display: flex;
+  align-items: flex-start;
+}
+.adress .section{
+  width: 70%;
+}
+.adress .section textarea{
+  width: 100%;
+  color: #b6b6b6;
+  font-size:32rpx;
+  margin-left:20rpx;
+}
+.footer {
+  width: 90%;
+  margin: 70rpx auto 0;
+  height: 96rpx;
+}
+
+.footer .submit {
+  width: 100%;
+}
+.footer .submit button{
+border-radius:50rpx;
+height:96rpx;
+line-height:96rpx;
+font-size:16px;
+background:#6aaf3a;
+color:white;
+}

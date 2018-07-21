@@ -1,0 +1,99 @@
+
+<!--导航条-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+ 
+<!--全部-->
+<view hidden="{{currentTab!==0}}">
+   <view class='Dfuohuo'>
+       <view class='Dfuohuo_top'>
+          <text class='Dfuohuo_top-left'>订单编号：812345366363636636</text>
+          <text class='Dfuohuo_top_right'>04-27 20：14</text>
+       </view>
+       <view class='Dfuohuo_center clearfix'>
+          <view class='Dfuohuo_center_img'>
+             <image src="../../../images/images/dingdan_1.png"></image>
+          </view>
+          <view class='Dfuohuo_center_right'>
+             <text class='Dfuohuo_center_right_text'>鑫众美智能指纹锁门感应卡门锁指纹密码锁</text>
+             <view class='Dfuohuo_center_price'>
+                <text class='red'>￥499</text>
+                <text>X1</text>
+             </view>
+          </view>
+       </view>
+       <view class='Dfuohuo_foot clearfix'>
+         <text class='Dfuohuo_foot_left'>总计：<text class='red'>￥499</text></text>
+         <text class='Dfuohuo_foot_right'>查看物流</text>
+       </view>
+   </view>
+
+   <view class='Dfukuan'>
+       <view class='Dfuohuo_top'>
+          <text class='Dfuohuo_top-left'>订单编号：812345366363636636</text>
+          <text class='Dfuohuo_top_right'>04-27 20：14</text>
+       </view>
+       <view class='Dfuohuo_center clearfix'>
+          <view class='Dfuohuo_center_img'>
+             <image src="../../../images/images/dingdan_1.png"></image>
+          </view>
+          <view class='Dfuohuo_center_right'>
+             <text class='Dfuohuo_center_right_text'>鑫众美智能指纹锁门感应卡门锁指纹密码锁</text>
+             <view class='Dfuohuo_center_price'>
+                <text class='red'>￥499</text>
+                <text>X1</text>
+             </view>
+          </view>
+       </view>
+       <view class='Dfuohuo_foot clearfix'>
+         <text class='Dfuohuo_foot_left'>总计：<text class='red'>￥499</text></text>
+         <text class='Dfuohuo_foot_right yanse'>付款</text>
+         <text class='Dfuohuo_foot_right'>查看物流</text>
+       </view>
+   </view>
+
+  <view class='Dpingjia'>
+       <view class='Dfuohuo_top'>
+          <text class='Dfuohuo_top-left'>订单编号：812345366363636636</text>
+          <text class='Dfuohuo_top_right'>04-27 20：14</text>
+       </view>
+       <view class='Dfuohuo_center clearfix'>
+          <view class='Dfuohuo_center_img'>
+             <image src="../../../images/images/dingdan_1.png"></image>
+          </view>
+          <view class='Dfuohuo_center_right'>
+             <text class='Dfuohuo_center_right_text'>鑫众美智能指纹锁门感应卡门锁指纹密码锁</text>
+             <view class='Dfuohuo_center_price'>
+                <text class='red'>￥499</text>
+                <text>X1</text>
+             </view>
+          </view>
+       </view>
+       <view class='Dfuohuo_foot clearfix'>
+         <text class='Dfuohuo_foot_left'>总计：<text class='red'>￥499</text></text>
+         <text class='Dfuohuo_foot_right yanse'>评价</text>
+          <text class='Dfuohuo_foot_right'>查看物流</text>
+       </view>
+   </view>
+</view>
+ 
+<!--待付款-->
+<view hidden="{{currentTab!==1}}">
+  tab_02
+</view>
+ 
+<!--待发货-->
+<view hidden="{{currentTab!==2}}">
+  tab_03
+</view>
+
+<!--待收货-->
+<view hidden="{{currentTab!==3}}">
+   tab_04
+</view>
+
+<!--待评价-->
+<view hidden="{{currentTab!==4}}">
+   tab_05
+</view>

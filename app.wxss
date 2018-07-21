@@ -1,0 +1,19 @@
+/**app.wxss**/
+/* @import 'style/weui.wxss'; */
+page{
+    margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after {
+  clear: both;
+}
+.green{
+  color: #6aaf3a;
+}
+@import "/template/template.wxss";

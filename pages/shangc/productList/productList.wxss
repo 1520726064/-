@@ -1,0 +1,33 @@
+.red{
+  color: #e60303;
+  display: inline-block;
+
+}
+.xiao{
+  color: #cecece;
+  display: inline-block;
+  float: right;
+}
+.list{
+  width: 94%;
+  margin: auto;
+  border-bottom: 1px solid #ccc;
+  padding: 20rpx 0;
+  font-size: 33rpx;
+}
+.list_img{
+  width: 34%;
+  float: left;
+}
+.list_img image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 20rpx;
+}
+.list_rihgt{
+  width: 66%;
+  float: left;
+}
+.list_rihgt_text{
+  height: 160rpx;
+}
