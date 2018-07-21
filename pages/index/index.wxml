@@ -2,7 +2,7 @@
 <import src="../../template/template.wxml" />
 <template is="tabBar" data="{{tabBar:bindData.tabBar}}" />
 <swiper class='index-lun' indicator-dots="{  {indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-  <block wx:for="{{Banners}}">
+  <block wx:for="{{Banners}}" wx:key="index">
     <swiper-item>
       <image src="{{item.banner}}" class="slide-image" width="355" height="150" />
     </swiper-item>
@@ -10,7 +10,7 @@
 </swiper>
 
 <view class='nav-box clearfix'>
-  <view wx:for='{{RepairCategory}}' catchtap='detail' data-id='{{item.id}}'>
+  <view wx:for='{{RepairCategory}}' catchtap='detail' data-id='{{item.id}}'  wx:key="index">
     <view class="nav_list">
       <view class='img'>
         <image src='{{item.image}}' />
@@ -26,7 +26,7 @@
     <text>热门维修</text>
   </view>
   <view class='rmwx-text clearfix'>
-    <view wx:for='{{SecondCategory}}'>
+    <view wx:for='{{SecondCategory}}'  wx:key="index">
       <text bindtap='tiaozhuan' data-index='{{index}}' data-id="{{item['pid']}}">{{item['name']}}</text>
     </view>
   </view>
@@ -42,7 +42,7 @@
   </view>
   <view class='tjsp-bottom'>
     <view class='tjsp-bottom-all clearfix'>
-      <navigator class='tjsp-li' wx:for="{{TuiGoods}}" url="../shangc/productList/productList">
+      <navigator class='tjsp-li' wx:for="{{TuiGoods}}" url="../shangc/productList/productList"  wx:key="index">
         <view>
           <view>
             <image src='{{item.cover}}'></image>

@@ -1,8 +1,8 @@
 //index.js
 //获取应用实例
 const app = getApp()
-var url=require('../../url/url.js');
-var template = require('../../template/template.js');
+let url=require('../../url/url.js');
+let template = require('../../template/template.js');
 Page({
   data: {
     tjsp_price: 80,

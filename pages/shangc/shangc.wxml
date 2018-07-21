@@ -1,2 +1,24 @@
-<import src="../../template/template.wxml"/>
-<template is="tabBar" data="{{tabBar:bindData.tabBar}}"/>
+<!--pages/Product/Product.wxml-->
+<view class="content-container">
+  <view class="classify-container">
+    <block wx:for="{{goodsList}}" wx:for-item="classify" wx:key="id">
+      <view class="classify {{id==classify.ProductInfo.TypeId?'active':''}}" bindtap="tapClassify" data-id='{{classify.ProductInfo.id}}'>
+        <view class="name">{{classify.ProductInfo.name}}</view>
+      </view>
+    </block>
+  </view>
+  <scroll-view class="goods-container" scroll-y="true" hidden='{{hidden}}' animation="{{animationData}}" style='position:absoute;top:{{top}}px;opacity:{{opacity}}'>
+    <block wx:for="{{goodsList}}" wx:for-item="classify" wx:key="id">
+      <block wx:for="{{classify.PriceSheetList}}" wx:key="*this">
+        <view class="hd {{item.TypeId==id?'Nhidden':'hidden'}}" data-id='{{index}}'>
+          <view class="goods">
+          <navigator url="/pages/index/pricesheet/pricesheet?SheetId={{item.SheetId}}&SheetName={{item.SheetName}}">
+            <image class="pic" src="{{webhost+item.ImageUrl}}"></image>
+            <view class='classifyName' style='height:80rpx'>{{item.SheetName}}</view>
+          </navigator>
+          </view>
+        </view>
+      </block>
+    </block>
+  </scroll-view>
+</view>

@@ -1,0 +1,125 @@
+/* pages/Product/Product.wxss */
+.container {
+  height: 100%;
+  overflow: hidden;
+}
+.content-container {
+  display: -webkit-flex;
+  height: 100%;
+  box-sizing: border-box;
+  padding-bottom: 100rpx;
+}
+
+.classify-container {
+  width: 25%;
+  background: #eee;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0
+}
+
+.classify-container .classify {
+  height:88rpx;
+  text-align: center;
+  line-height: 88rpx;
+    border-left: 3px solid #eee;
+}
+
+.classify-container .active {
+  background: #fff;
+  border-left: 3px solid #ff2832;
+  color: #FF3F06;
+}
+
+.classify-container .classify .name {
+  display: inline-block;
+  font-size: 36rpx;
+  color: #646464;
+  line-height: 1.2;
+  text-align: left;
+  pointer-events: none;
+}
+
+.goods-container {
+  background: #fff;
+  height: 100%;
+  width: 75%;
+  position: fixed;
+  top: 0;
+  right: 0
+}
+
+.goods-container .title {
+  padding: 20rpx 25rpx;
+  color: #646464;
+  font-size: 30rpx;
+  line-height: 30rpx;
+  background: #ddd;
+}
+
+.goods-container .goods {
+  position: relative;
+  margin: 0 20rpx;
+  font-size: 36rpx;
+  line-height: 40rpx;
+  border: 0.1px solid #ddd;
+  height:460rpx;
+  border-top: none;
+}
+
+.goods-container .goods .pic {
+  width:100%;
+  max-height: 356rpx;
+}
+
+.goods-container .goods .name {
+  color: #000;
+  font-size: 36rpx;
+  line-height: 46rpx;
+}
+
+.goods-container .goods .sold {
+  color: #989898;
+  font-size: 30rpx;
+  line-height: 46rpx;
+}
+
+.goods-container .goods .price {
+  color: #f45044;
+  font-size: 36rpx;
+  line-height: 46rpx;
+}
+
+.goods-container .goods .addCart {
+  position: absolute;
+  right: 30rpx;
+  bottom: 30rpx;
+  width: 64rpx;
+  height: 64rpx;
+  background: #fd79ac;
+  border-radius: 50%;
+}
+
+.goods-container .goods .addCart image {
+  pointer-events: none;
+  position: absolute;
+  left: 20rpx;
+  top: 20rpx;
+  width: 24rpx;
+  height: 24rpx;
+}
+.classifyName{
+  height:40px;
+  line-height:80rpx;
+  text-align:center;
+}
+.hd{
+  display: none;
+}
+.Nhidden{
+  display: block
+}
+.Nhidden{
+  display: none；
+}

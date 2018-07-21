@@ -6,12 +6,12 @@ let urls={
   login: url.host +'/api/login',
   getUserInfo: url.host +'/api/getUserInfo',
   setUserInfo: url.host +'/api/setUserInfo',
-  setOrder: url.host +'/members/setRepairOrder'             
+  setOrder: url.host +'/members/setRepairOrder', 
+  //商品一级列表
+  productList: url.host +"/goods/getGoodsCategory"
 }
-let image = {
-  welcome:'http://xcx01.yiyuncloud.com/static/admin/static/picbox/images/shenhe.jpg'
-}
+
+
 module.exports = {
-  images: image,
    url: urls
 }  

@@ -1,10 +1,2 @@
 <!--pages/welcome/welcome.wxml-->
-<view class='container'>
-<image class='img' src='{{welcome}}'> </image>
-<text class='content'>{{content}}</text>
-    <view class='{{status==1 ? "usermotto":"hidden"}}'  catchtap='welcome' class="usermotto">
-  <button open-type='getUserInfo'  catchtap='user_login'  class="user_login">用户</button>
-  <button open-type='getUserInfo'  catchtap='shifu_login'  class="user_login">师傅</button>
-  </view> 
- </view>  
-
+<text>pages/welcome/welcome.wxml</text>

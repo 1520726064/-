@@ -1,6 +1,7 @@
 {
   "pages":[
-    "pages/welcome/welcome",
+    "pages/shangc/shangc",
+   "pages/index/index",
     "pages/shangc/productDetails/productDetails",
     "pages/shangc/productList/productList",
     "pages/shangc/ConfirmationOrder/ConfirmationOrder",
@@ -8,7 +9,6 @@
     "pages/index/FillInOrders/FillInOrders",
     "pages/index/classification/classification",
     "pages/person/orderManagement/orderManagement",
-    "pages/index/index",
     "pages/person/CommonProblem/CommonProblem",
     "pages/person/person",
     "pages/person/information/information",
@@ -21,8 +21,8 @@
     "pages/person/adress/adress",
     "pages/person/coupon/coupon",
     "pages/logs/logs",
-    "pages/details/details",  
-    "pages/shangc/shangc"
+    "pages/details/details"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",
